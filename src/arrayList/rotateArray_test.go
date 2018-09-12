@@ -1,8 +1,8 @@
 package arrayList
 
 import (
-	"testing"
 	"log"
+	"testing"
 )
 
 /*
@@ -28,6 +28,7 @@ func rotate(nums []int, k int) {
 	log.Println(nums)
 }
 
+//测试
 func TestArray(t *testing.T) {
-	rotate([]int{-1,-2}, 2)
+	rotate([]int{-1, -2}, 2)
 }
